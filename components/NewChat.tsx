@@ -5,6 +5,7 @@ import { useRouter } from "next/navigation";
 import React from "react";
 import { database } from "../firebase";
 import { addDoc, collection, serverTimestamp } from "firebase/firestore";
+import { PlusCircleIcon } from "@heroicons/react/24/outline";
 
 export default function NewChat() {
   const { data: session } = useSession();
@@ -22,7 +23,8 @@ export default function NewChat() {
 
   return (
     <div onClick={createNewChat} className="border-gray-700 border chatRow">
-      <p>New chat +</p>
+      <PlusCircleIcon width={25} height={25} />
+      <p>New Chat</p>
     </div>
   );
 }

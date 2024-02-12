@@ -34,7 +34,7 @@ export default function ChatInput({ chatId }: Props) {
         name: session?.user?.name!,
         avatar:
           session?.user?.image! ||
-          "https://ui-avatars.com/api/?name=${session?.user?.name}",
+          `https://ui-avatars.com/api/?name=${session?.user?.name!}`,
       },
     };
     await addDoc(

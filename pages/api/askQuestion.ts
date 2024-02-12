@@ -31,7 +31,8 @@ export default async function handler(
     user: {
       _id: "SenpaiGPT",
       name: "SenpaiGPT",
-      avatar: "https://ui-avatars.com/api/?name=John+Doe",
+      avatar:
+        "https://cdn.donmai.us/original/5d/15/__texas_arknights_drawn_by_huang_qing_ye__5d15cb4dd43a97ea14b903c5996f60ac.jpg",
     },
   };
 
