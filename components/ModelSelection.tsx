@@ -12,8 +12,6 @@ export default function ModelSelection() {
     fallbackData: "text-davinci-003",
   });
 
-  console.log(model);
-
   return (
     <div className="mt-2">
       <Select

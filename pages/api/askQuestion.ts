@@ -31,7 +31,7 @@ export default async function handler(
     user: {
       _id: "SenpaiGPT",
       name: "SenpaiGPT",
-      avatar: "htt ps://ui-avatars.com/api/?name=John",
+      avatar: "https://ui-avatars.com/api/?name=John+Doe",
     },
   };
 
