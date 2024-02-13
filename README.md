@@ -1,6 +1,11 @@
 # SenpaiGPT
 
-Paying 20 USD per month for GPT-4 is too much for me so I made the (bad) decision to code up a quick and dirty ChatGPT clone to use GPT-4 without subscribing!
+To-Do List:
+- Handle more models using model.list() instead of hardcoding.
+- Improve type-safety in options section <any, any> lol.
+- Customise the params more instead of hardcoding???
+
+Paying 20 USD per month for GPT-4 is too much for me! So I referenced a tutorial to learn how to integrate OpenAI into web applications as a quick weekend project.
 
 Made with Typescript, TailwindCSS, NextJS in React, hosted on Vercel, sign-in, and chat data linked to Firebase.
 
